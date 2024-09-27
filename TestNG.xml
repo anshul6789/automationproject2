@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="cliqlens.com">
+   
+   
+  <test name="cliqlens">    
+     
+    <classes>
+  <class name="velvetresidences.TestCases.TC_Register_001"/> 
+   <!--<class name="velvetresidences.TestCases.TC_Login_002"/> -->
+   <!-- <class name="velvetresidences.TestCases.TC_Forgotpassword_003"/>--> 
+   <!--<class name="velvetresidences.TestCases.TC_Logout_004"/>-->
+    
+    </classes>
+     
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

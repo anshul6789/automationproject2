@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.58 s <<< FAILURE! - in TestSuite
+velvetresidences.TestCases.TC_Register_001.Registerwithvalidetails  Time elapsed: 4.314 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="#sign-in-dialog" class="sign-in popup-with-zoom-anim">...</a> is not clickable at point (912, 54). Other element would receive the click: <div class="mfp-content">...</div>
+  (Session info: chrome=128.0.6613.115)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce279f98a3bd38deb0ee7c3b217afada, clickElement {id=f.9C7F84825C6CC9AC45B86034D0FDED14.d.DE8CB026219708F67EC0454E1E97B6A6.e.42}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.115, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\MVS-DE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52650}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52650/devtoo..., se:cdpVersion: 128.0.6613.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ce279f98a3bd38deb0ee7c3b217afada)] -> xpath: //a[@class='sign-in popup-with-zoom-anim']]
+Session ID: ce279f98a3bd38deb0ee7c3b217afada
+	at velvetresidences.TestCases.TC_Register_001.Registerwithvalidetails(TC_Register_001.java:19)
+

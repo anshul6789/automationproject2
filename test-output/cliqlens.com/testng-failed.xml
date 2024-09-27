@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [cliqlens.com]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="cliqlens(failed)">
+    <classes>
+      <class name="velvetresidences.TestCases.TC_Register_001">
+        <methods>
+          <include name="Registerwithinvalidemailone"/>
+          <include name="Registerwithvalidetails"/>
+          <include name="Registerwithinvalidemailtwo"/>
+          <include name="registerwithoutacceptingprivacypolicy"/>
+          <include name="setup"/>
+          <include name="registerwithemptyfields"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- velvetresidences.TestCases.TC_Register_001 -->
+    </classes>
+  </test> <!-- cliqlens(failed) -->
+</suite> <!-- Failed suite [cliqlens.com] -->
