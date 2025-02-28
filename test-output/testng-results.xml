@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-11T17:16:06 IST" name="Default suite" finished-at="2024-09-11T17:16:27 IST" duration-ms="20623">
+  <suite started-at="2024-11-22T15:40:51 IST" name="Default suite" finished-at="2024-11-22T15:41:53 IST" duration-ms="62660">
     <groups>
     </groups>
-    <test started-at="2024-09-11T17:16:06 IST" name="Default test" finished-at="2024-09-11T17:16:27 IST" duration-ms="20623">
-      <class name="velvetresidences.TestCases.TC_Propertylisting_007">
-        <test-method is-config="true" signature="setup()[pri:0, instance:velvetresidences.TestCases.TC_Propertylisting_007@7eac9008]" started-at="2024-09-11T17:16:06 IST" name="setup" finished-at="2024-09-11T17:16:11 IST" duration-ms="4999" status="PASS">
+    <test started-at="2024-11-22T15:40:51 IST" name="Default test" finished-at="2024-11-22T15:41:53 IST" duration-ms="62660">
+      <class name="velvetresidences.TestCases.TC_AddListing_010">
+        <test-method is-config="true" signature="setup()[pri:0, instance:velvetresidences.TestCases.TC_AddListing_010@1e178745]" started-at="2024-11-22T15:40:51 IST" name="setup" finished-at="2024-11-22T15:40:57 IST" duration-ms="6469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifypropertylisting()[pri:0, instance:velvetresidences.TestCases.TC_Propertylisting_007@7eac9008]" started-at="2024-09-11T17:16:11 IST" name="verifypropertylisting" finished-at="2024-09-11T17:16:26 IST" duration-ms="15366" status="PASS">
+        <test-method signature="verifyListing()[pri:0, instance:velvetresidences.TestCases.TC_AddListing_010@1e178745]" started-at="2024-11-22T15:40:57 IST" name="verifyListing" finished-at="2024-11-22T15:41:53 IST" duration-ms="56138" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifypropertylisting -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:velvetresidences.TestCases.TC_Propertylisting_007@7eac9008]" started-at="2024-09-11T17:16:26 IST" name="teardown" finished-at="2024-09-11T17:16:27 IST" duration-ms="199" status="PASS">
+        </test-method> <!-- verifyListing -->
+        <test-method is-config="true" signature="randomstring()[pri:0, instance:velvetresidences.TestCases.TC_AddListing_010@1e178745]" started-at="2024-11-22T15:41:53 IST" name="randomstring" finished-at="2024-11-22T15:41:53 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- velvetresidences.TestCases.TC_Propertylisting_007 -->
+        </test-method> <!-- randomstring -->
+      </class> <!-- velvetresidences.TestCases.TC_AddListing_010 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -13,7 +13,7 @@ public class TC_Login_002 extends Baseclass{
 		Login li=new Login(driver);
 		li.clicksignintext();
 	li.setusername("anshulsaini853@gmail.com");
-		li.setpassword("anshul321@");
+		li.setpassword("abc321@");
 		li.clickremembermecheckbox();
 		li.clickloginbtn();
 		Thread.sleep(5000);
@@ -40,5 +40,6 @@ String	Exp_title="Velvet Residences";
 		System.out.println("expected result: user should not be able to login with invalid password----Test case passed");
 		
 	}
+	
 	
 }

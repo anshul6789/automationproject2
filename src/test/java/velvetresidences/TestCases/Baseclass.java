@@ -25,12 +25,12 @@ public static WebDriver driver;
 	}
 	
 	@AfterClass
-	public void teardown() {
-	driver.close();
-	}
+//	public void teardown() {
+//	driver.close();
+//	}
 	
 	public String randomstring() {
-		String generatedstring=RandomStringUtils.randomAlphabetic(8);
+		String generatedstring=RandomStringUtils.randomAlphabetic(200);
 		return (generatedstring);
 	}
 	

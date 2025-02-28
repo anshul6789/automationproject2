@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="velvetresidences.TestCases.TC_Propertylisting_007">
+      <class name="velvetresidences.TestCases.TC_AddListing_010">
         <methods>
-          <include name="verifypropertylisting"/>
+          <include name="verifyListing"/>
+          <include name="randomstring"/>
           <include name="setup"/>
-          <include name="teardown"/>
         </methods>
-      </class> <!-- velvetresidences.TestCases.TC_Propertylisting_007 -->
+      </class> <!-- velvetresidences.TestCases.TC_AddListing_010 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
